@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-Contains the FileStorage class
+""" Contains the FileStorage class
 """
 
 import json
@@ -39,6 +38,23 @@ class FileStorage:
         if obj is not None:
             key = obj.__class__.__name__ + "." + obj.id
             self.__objects[key] = obj
+
+    def get(self, cls, id):
+        """get an object of a class with id"""
+        if cls is not None:
+            result = list(
+                filter(
+                    lambda x: type(x) is cls and x.id == id,
+                    self.__objects.values()
+                )
+            )
+            if result:
+                return result[0]
+        return None
+
+    def count(self, cls=None):
+        """counts the number of objects of a class or all (if cls==None)"""
+        return len(self.all(cls))
 
     def save(self):
         """serializes __objects to the JSON file (path: __file_path)"""
