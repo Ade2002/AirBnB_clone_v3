@@ -188,7 +188,4 @@ Second part of Airbnb: Joann Vuong
 
 Public Domain. No copy write protection.
 
-
 chmod u+x 1-hbnb_route.py && git add --chmod=+x 1-hbnb_route.py && git commit -m 'Task 02 1-hbnb_route.py ' && git push
-
-
