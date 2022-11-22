@@ -187,3 +187,6 @@ Second part of Airbnb: Joann Vuong
 ## License
 
 Public Domain. No copy write protection.
+
+
+chmod u+x 101-starwars_characters.js && git add --chmod=+x 101-starwars_characters.js && git commit -m 'Advanced Task 101 101-starwars_characters.js' && git push
