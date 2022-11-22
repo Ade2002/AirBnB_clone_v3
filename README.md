@@ -188,6 +188,6 @@ Second part of Airbnb: Joann Vuong
 
 Public Domain. No copy write protection.
 
-touch states.py && git add . && git commit -m states.py
-chmod u+x states.py && git add --chmod=+x states.py && git commit -m 'Task 03 states.py' && git push 
+touch users.py && git add . && git commit -m users.py
+chmod u+x users.py && git add --chmod=+x users.py && git commit -m 'Task 03 users.py' && git push 
 
