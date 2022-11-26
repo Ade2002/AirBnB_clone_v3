@@ -8,9 +8,9 @@ chmod u+x print_dlistint.c && git add --chmod=+x print_dlistint.c && git commit 
 
 chmod u+x 101-script.js && git add --chmod=+x 101-script.js && git commit -m 'Advanced Task 100 101-script.js' && git push
 
-chmod u+x 0-hbnb.py && git add --chmod=+x 0-hbnb.py && git commit -m 'Task 00 0-hbnb.py' && git push
+chmod u+x 0-hbnb.html && git add --chmod=+x 0-hbnb.html && git commit -m 'Task 00 0-hbnb.html' && git push
 
-touch 0-hbnb.py && git add . && git commit -m 0-hbnb.py
+touch 0-hbnb.html && git add . && git commit -m 0-hbnb.html
 
 make -f 5-island_perimeter.py && git add . && git commit -m 5-island_perimeter.py
 
